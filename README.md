@@ -7,6 +7,8 @@
 ###### Author:..Kuro-code
 ###### Info:....Phishing tool
 
+* Attack Switcher for phishing: Facebook, Pinterest, Linkedin, twitter.
+
 ######     [!] Special thanks: Z0mB13DoLL [!]
 
 ### Skeleton key 1.0 beta ###
