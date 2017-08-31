@@ -2,6 +2,7 @@
 
 ### Skeleton key 1.0 beta ###
 
-# Utilisation #
+# Use #
 
-*  
+*  chmod +x skeleton.sh
+* ./skeleton.sh
